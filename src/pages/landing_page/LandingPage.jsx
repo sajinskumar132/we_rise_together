@@ -4,6 +4,7 @@ import Hero from './sub_components/hero/Hero'
 import AboutUs from './sub_components/about_us/AboutUs'
 import Features from './sub_components/features/Features'
 import Stories from './sub_components/stories/Stories'
+import Events from './sub_components/events/Events'
 
 function LandingPage() {
 //   const cities = ["Tokyo","Cairo","Los Angeles","Paris","Seattle"];
@@ -22,6 +23,7 @@ function LandingPage() {
         <AboutUs/>
         <Features/>
         <Stories/>
+        <Events/>
     </div>
   )
 }

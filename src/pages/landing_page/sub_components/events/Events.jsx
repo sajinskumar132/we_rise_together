@@ -1,12 +1,12 @@
 import React from 'react'
-
+import './eventsStyle.css'
 function Events() {
   return (
-    <div>
-        <p>Upcoming Events</p>
-        <p>Healing Through Attending Events</p>
+    <div className='events_main_container'>
+        <p className='events_headline'>Upcoming Events</p>
+        <p className='events_sub_headline'>Healing Through Attending Events</p>
         <div>
-            
+
         </div>
     </div>
   )
