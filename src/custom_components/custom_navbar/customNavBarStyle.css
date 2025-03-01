@@ -1,0 +1,56 @@
+.custom_navbar_main_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 40px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    align-items: center;
+}
+.custom_navbar_website_icon{
+    width: 80px;
+    height: 50px;
+}
+.custom_navbar_navigation_link{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.custom_navbar_navigation_item{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(88, 129, 63);
+    cursor: pointer;
+}
+.custom_navbar_navigation_item:hover{
+    color: rgb(62, 102, 39)
+}
+.custom_navbar_action_buttons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.custom_navbar_action_button{
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.custom_navbar_action_button.login{
+    border: 2px solid rgb(62, 102, 39);
+    background-color: white;
+    color: rgb(62, 102, 39);
+}
+
+.custom_navbar_action_button.sign_up{
+    border: 2px solid rgb(62, 102, 39);
+    background-color: rgb(62, 102, 39);
+    color: white;
+}
+
+.custom_navbar_action_button.download{
+    border: 2px solid rgb(62, 102, 39);
+    background-color: rgb(62, 102, 39);
+    color: white;
+}

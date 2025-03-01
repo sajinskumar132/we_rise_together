@@ -1,0 +1,36 @@
+.about_us_main_container{
+    padding: 20px 50px;
+}
+.about_us_headline{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(62, 102, 39);
+}
+.about_us_sub_headline{
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.about_us_sub_container_1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about_us_paragraphs{
+    font-size: 19px;
+}
+.about_us_paragraphs_span{
+    font-weight: 600;
+    color: rgb(62, 102, 39);
+}
+.about_us_logo_container{
+    display: flex;
+    justify-content: center;
+}
+.about_us_logo_name{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+}
