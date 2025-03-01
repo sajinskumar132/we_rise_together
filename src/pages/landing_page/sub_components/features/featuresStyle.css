@@ -1,0 +1,27 @@
+.features_main_container{
+    padding: 20px 50px;
+}
+.features_listing_main_container{
+    margin: 50px 0px;
+}
+.features_headline{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(62, 102, 39);
+}
+.features_sub_headline{
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.features_listing_container_1{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+.features_listing_container_2{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}

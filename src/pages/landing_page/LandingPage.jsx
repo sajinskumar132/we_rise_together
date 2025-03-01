@@ -3,6 +3,7 @@ import CustomNavBar from '../../custom_components/custom_navbar/CustomNavBar'
 import Hero from './sub_components/hero/Hero'
 import AboutUs from './sub_components/about_us/AboutUs'
 import Features from './sub_components/features/Features'
+import Stories from './sub_components/stories/Stories'
 
 function LandingPage() {
 //   const cities = ["Tokyo","Cairo","Los Angeles","Paris","Seattle"];
@@ -20,6 +21,7 @@ function LandingPage() {
         <Hero/>
         <AboutUs/>
         <Features/>
+        <Stories/>
     </div>
   )
 }
