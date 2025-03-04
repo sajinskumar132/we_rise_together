@@ -1,0 +1,50 @@
+.custom_card_v1_main_container{
+    width: 400px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    border-radius: 5px;
+}
+.custom_card_v1_image{
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.custom_card_v1_sub_container_1{
+    padding: 8px 10px 50px;
+}
+.custom_card_v1_title{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(62, 102, 39);
+    margin: 10px 0px;
+    line-height: 1.5;
+}
+.custom_card_v1_date_and_time_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.custom_card_v1_date_and_time_flex_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.custom_card_v1_date_icon{
+    font-size: 25px;
+}
+.custom_card_v1_time_icon{
+    font-size: 22px;
+}
+.custom_card_v1_container_mode{
+    border: 1px solid grey;
+    padding: 4px 5px;
+    border-radius: 10px;
+    color: gray;
+    font-size: 15px;
+}
+.custom_card_v1_action_container{
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+}

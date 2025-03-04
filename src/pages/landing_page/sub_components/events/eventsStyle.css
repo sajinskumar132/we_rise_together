@@ -12,3 +12,19 @@
     font-size: 18px;
     margin: 10px 0px;
 }
+.events_list_main_container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.event_action_button{
+    background-color: rgb(62, 102, 39);
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px 40px;
+    border-radius: 5px;
+}
