@@ -1,0 +1,33 @@
+.comming_soon_super_main_container{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+}
+.comming_soon_main_container{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+.comming_soon_logo_name{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+}
+.coming_soon_title{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(62, 102, 39);
+    margin-bottom: 20px;
+}
+.coming_soon_paragarph{
+    font-size: 19px;
+    line-height: 1.5;
+}
+.comming_soon_logo{
+    width: 300px;
+    height: 200px;
+}

@@ -17,6 +17,7 @@
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
+    margin: 40px 0px;
 }
 .event_action_button{
     background-color: rgb(62, 102, 39);

@@ -18,7 +18,6 @@ function CustomNavBar() {
           <p className="custom_navbar_navigation_item">Features</p>
           <p className="custom_navbar_navigation_item">Stories</p>
           <p className="custom_navbar_navigation_item">Upcoming Events</p>
-          <p className="custom_navbar_navigation_item">Support</p>
         </div>
         <div className="custom_navbar_action_buttons">
           <button className="custom_navbar_action_button login">Login</button>

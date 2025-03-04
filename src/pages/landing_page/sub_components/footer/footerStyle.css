@@ -1,0 +1,56 @@
+.footer_main_container{
+    background-color: rgb(62, 102, 39);
+    padding: 20px 200px;
+}
+.footer_sub_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.footer_sub_container_with_logo_para{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 250px;
+    text-align: center;
+}
+.footer_sub_container_with_logo{
+    width: 100px;
+}
+.footer_main_header{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: white;
+}
+.footer_sub_text{
+    font-family: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: white;
+    cursor: pointer;
+}
+.footer_input_field_main_container{
+    margin-top: 15px;
+    background-color: white;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+}
+.footer_input_field{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 0px;
+}
+.footer_input_field_send_action_button{
+    background-color: rgb(62, 102, 39);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
