@@ -28,9 +28,6 @@ function Hero() {
                 <img src={banner_img_4} className='hero_banner_image_set_1'/>
             </div>
         </div>
-        {/* <div className='hero_main_sub_container_3'>
-            <img src={abstract_img_1}/>
-        </div> */}
     </div>
   )
 }

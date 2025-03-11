@@ -9,14 +9,7 @@ import CommingSoon from './sub_components/comming_soon/CommingSoon'
 import Footer from './sub_components/footer/Footer'
 
 function LandingPage() {
-//   const cities = ["Tokyo","Cairo","Los Angeles","Paris","Seattle"];
-//   console.log(cities.slice(0,2))
-//  cities.splice(2,1)
-//   console.log(cities)
-//   Object.entries({name:"sajin"}).map(([key,value])=>{
-//     console.log(key)
-//     console.log(value)
-//   })
+
   
   return (
     <div>
@@ -25,9 +18,9 @@ function LandingPage() {
         <AboutUs/>
         <Features/>
         <Stories/>
-        <Events/>
+        {/* <Events/>
         <CommingSoon/>
-        <Footer/>
+        <Footer/> */}
     </div>
   )
 }

@@ -42,7 +42,7 @@ function Features() {
           />
         </div>
         <div className="features_listing_container_1">
-            <img src={website_logo} />
+            <img src={website_logo} className="features_container_website_logo"/>
         </div>
         <div className="features_listing_container_2">
         <CustomCard

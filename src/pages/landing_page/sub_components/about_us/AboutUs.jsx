@@ -11,7 +11,7 @@ function AboutUs() {
       <div className="about_us_flex_container">
       <div className="about_us_logo_container">
           <div>
-            <img src={website_logo} />
+            <img src={website_logo}  className="about_us_website_logo"/>
             <p className="about_us_logo_name">TogetherWeRise</p>
           </div>
         </div>

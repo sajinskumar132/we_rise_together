@@ -40,3 +40,52 @@
     align-items: center;
     gap: 10px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 600px) {
+    .about_us_headline{
+        font-size: 18px;
+    }
+    .about_us_sub_headline{
+        font-size: 16px;
+    }
+    .about_us_paragraphs{
+        font-size: 17px;
+    }
+    .about_us_logo_name{
+        font-size: 17px;
+    }
+    .about_us_website_logo{
+        width: 140px;
+        height: 90px;
+    }
+    .about_us_sub_container_1{
+        margin: 20px 0px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 900px) {
+    .about_us_main_container{
+        padding: 20px 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1000px) {
+    .about_us_flex_container{
+        grid-template-columns:100%;
+        grid-column-start: 2;
+        gap: 0;
+    }
+}

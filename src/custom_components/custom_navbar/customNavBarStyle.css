@@ -1,3 +1,12 @@
+.custom_navbar_sticky_container{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+.custom_navbar_super_main_container{
+    position: relative;
+}
 .custom_navbar_main_container{
     display: flex;
     justify-content: space-between;
@@ -53,4 +62,93 @@
     border: 2px solid rgb(62, 102, 39);
     background-color: rgb(62, 102, 39);
     color: white;
+}
+.custom_navbar_hamburger_icon{
+    font-size: 20px;
+    display: none;
+}
+.custom_navbar_drawer_main_container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 99vh;
+    background-color: #0000004d;
+    z-index: 999;
+}
+.custom_navbar_drawer_sub_container{
+    background-color: white;
+    height: 99vh;
+    width: 60%;
+    padding: 8px 10px;
+}
+.custom_navbar_drawer_sub_container_row_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    gap:10px
+}
+.custom_navbar_drawer_sub_container_column_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.custom_navbar_drawer_close{
+    font-size: 25px;
+}
+.custom_navbar_drawer_action_container{
+    position: absolute;
+    width: 60%;
+    bottom: 0px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 600px) {
+    .custom_navbar_main_container{
+        padding: 8px 20px;
+    }
+    .custom_navbar_action_button{
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .custom_navbar_navigation_link{
+        display: none;
+    }
+    .custom_navbar_website_logo{
+        display: none;
+    }
+    .custom_navbar_action_button.download{
+        display: none;
+    }
+    .custom_navbar_hamburger_icon{
+        display: block;
+    }
+    .custom_navbar_action_button.download.res{
+        display: block;
+    }
+    .custom_navbar_action_button{
+        min-width: 100px;
+    }
+    .custom_navbar_action_button.download{
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
