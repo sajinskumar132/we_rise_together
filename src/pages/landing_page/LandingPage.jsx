@@ -18,8 +18,8 @@ function LandingPage() {
         <AboutUs/>
         <Features/>
         <Stories/>
-        {/* <Events/>
-        <CommingSoon/>
+        <Events/>
+        {/* <CommingSoon/>
         <Footer/> */}
     </div>
   )

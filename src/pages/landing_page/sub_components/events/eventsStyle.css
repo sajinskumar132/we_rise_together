@@ -29,3 +29,16 @@
     padding: 8px 40px;
     border-radius: 5px;
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 900px) {
+    .events_main_container {
+      padding: 20px 20px;
+    }
+  }
+
+@media only screen and (max-width:500px){
+    .event_action_button{
+        font-size: 14px;
+    }
+}

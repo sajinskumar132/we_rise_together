@@ -2,13 +2,14 @@ import React from "react";
 import "./storiesStyle.css";
 import { stories_helper } from "./stories_helper";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { FreeMode, Pagination, Navigation } from "swiper/modules";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";;
 // import required modules
-import { FreeMode, Pagination } from 'swiper/modules';
+
 function Stories() {
   return (
     <div className="stories_main_container">
@@ -21,23 +22,18 @@ function Stories() {
         slidesPerView={3}
         spaceBetween={30}
         freeMode={true}
-        pagination={{
+        pagination={{ 
           clickable: true,
         }}
-        
-        modules={[FreeMode, Pagination]}
+        navigation={true}
+        modules={[FreeMode, Pagination, Navigation]}
         className="mySwiper"
         breakpoints={{
-          0:{ slidesPerView: 1, spaceBetween: 0 },
+          0: { slidesPerView: 1, spaceBetween: 5 },
           600: { slidesPerView: 2, spaceBetween: 10 },
           768: { slidesPerView: 2, spaceBetween: 25 },
           1024: { slidesPerView: 3, spaceBetween: 50 },
         }}
-      navigation={{
-        nextEl:true,
-        prevEl:true
-      }}
-      
       >
         {stories_helper.map((item, index) => (
           <SwiperSlide id={index}>

@@ -11,11 +11,11 @@ function CustomCardV1({ image, title, date, time, mode, action }) {
         <div className="custom_card_v1_date_and_time_container">
           <div className="custom_card_v1_date_and_time_flex_container">
             <HiOutlineCalendarDateRange className="custom_card_v1_date_icon" />
-            <p>{date}</p>
+            <p className="custom_card_v1_date">{date}</p>
           </div>
           <div className="custom_card_v1_date_and_time_flex_container">
             <FaRegClock className="custom_card_v1_time_icon"/>
-            <p>{time}</p>
+            <p className="custom_card_v1_time">{time}</p>
           </div>
         </div>
         <div className="custom_card_v1_action_container">{action}</div>
