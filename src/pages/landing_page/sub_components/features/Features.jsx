@@ -10,7 +10,7 @@ import website_logo from "../../../../assets/website_logo.png";
 import "./featuresStyle.css";
 function Features() {
   return (
-    <div className="features_main_container">
+    <div id="features" className="features_main_container">
       <p className="features_headline">FEATURES</p>
       <p className="features_sub_headline">
         Discover Support, Share Your Journey, and Heal Together.

@@ -12,7 +12,7 @@ import "swiper/css/navigation";;
 
 function Stories() {
   return (
-    <div className="stories_main_container">
+    <div id="stories" className="stories_main_container">
       <p className="stories_headline">Stories of Strength & Hope</p>
       <p className="stories_sub_headline">
         Real people. Real struggles. Real comebacks.

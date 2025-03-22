@@ -31,3 +31,40 @@
     width: 300px;
     height: 200px;
 }
+
+@media only screen and (max-width: 900px) {
+    .comming_soon_super_main_container {
+      padding: 20px 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .coming_soon_title{
+        font-size: 19px;
+    }
+    .coming_soon_paragarph{
+        font-size: 17px;
+    }
+    .comming_soon_main_container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+}
+
+@media only screen and (min-width:0px) and (max-width:500px){
+    .comming_soon_super_main_container{
+        margin: 5px 0px;
+    }
+    .coming_soon_title{
+        font-size: 18px;
+    }
+    .coming_soon_paragarph{
+        font-size: 16px;
+    }
+    .comming_soon_logo{
+        width: 150px;
+        height: 100px;
+    }
+    
+}

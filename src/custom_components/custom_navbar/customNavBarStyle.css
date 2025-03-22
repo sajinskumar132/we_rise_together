@@ -30,6 +30,7 @@
     font-weight: 600;
     color: rgb(88, 129, 63);
     cursor: pointer;
+    text-decoration: none;
 }
 .custom_navbar_navigation_item:hover{
     color: rgb(62, 102, 39)

@@ -2,6 +2,7 @@ import React from "react";
 import website_logo from "../../../../assets/website_logo.png";
 import "./footerStyle.css";
 import { IoSend } from "react-icons/io5";
+import CommonHelper from "../../../../helpers/commonHelper";
 function Footer() {
   return (
     <div className="footer_main_container">
@@ -22,8 +23,10 @@ function Footer() {
           <p className="footer_main_header">News Letter</p>
           <p className="footer_sub_text">Subscribe our newsletter to get our latest update & news</p>
           <div className="footer_input_field_main_container">
-             <input placeholder="your_email_id" className="footer_input_field"/>
-              <div className="footer_input_field_send_action_button">
+             <input placeholder="Enter your email" className="footer_input_field"/>
+              <div className="footer_input_field_send_action_button" onClick={()=>{
+              CommonHelper.Alert()
+              }}>
                 <IoSend />
               </div>
           </div>

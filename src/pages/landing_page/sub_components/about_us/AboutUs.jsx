@@ -3,7 +3,7 @@ import website_logo from "../../../../assets/website_logo.png";
 import "./aboutusStyle.css";
 function AboutUs() {
   return (
-    <div className="about_us_main_container">
+    <div id="about" className="about_us_main_container">
       <p className="about_us_headline">ABOUT US</p>
       <p className="about_us_sub_headline">
         Be part of a community that cares-your journey to healing starts here.

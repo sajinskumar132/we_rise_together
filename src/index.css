@@ -12,7 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
 h1,h2,h3,h4,h5,h6,p,button{
   margin: 0;
   font-family: "Inter", serif;
