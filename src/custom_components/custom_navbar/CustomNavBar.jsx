@@ -10,14 +10,14 @@ function CustomNavBar() {
     <nav className="custom_navbar_sticky_container">
       <div className="custom_navbar_super_main_container">
         <div className="custom_navbar_main_container">
-          <div>
+          <>
             <GiHamburgerMenu
               className="custom_navbar_hamburger_icon"
               onClick={() => {
                 setDrawerVisibility(!drawerVisibility);
               }}
             />
-          </div>
+          </>
           <div className="custom_navbar_website_logo">
             <img
               src={website_logo}
